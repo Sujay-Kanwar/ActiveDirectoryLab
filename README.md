@@ -3,26 +3,51 @@
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
-
+<p>
+This project outlines the setup of an Active Directory Home Lab, detailing steps from the initial download of necessary software to the creation and configuration of virtual machines within VirtualBox. It serves as a guide to setting up a domain controller, configuring network settings, and adding client machines to the domain.
+</p>
 
 <h2>Languages and Utilities Used</h2>
+<ul>
+<li><b>VirtualBox</b>: For virtualization and creating virtual machines.</li>
+<li><b>PowerShell</b>: For scripting, including user creation scripts.</li>
+</ul>
 
-- <b>PowerShell</b> 
+<h2>Environments Used</h2>
+<ul>
+<li><b>Windows 10</b> (Client Machines)</li>
+<li><b>Server 2019</b> (Domain Controller)</li>
+</ul>
 
-<h2>Environments Used </h2>
+<h2>Setup Walk-through:</h2>
 
-- <b>Windows 10</b> (21H2)
-
-<h2>Program walk-through:</h2>
-
+<h3>Step 1: Download Required Software</h3>
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+VirtualBox, Windows 10 ISO, Server 2019 ISO.<br/>
+<img src="#STEP1_IMAGE_URL" height="80%" width="80%" alt="Download Software"/>
 <br/>
 </p>
 
+<h3>Step 2: Create the Domain Controller Virtual Machine</h3>
+<p align="center">
+Details on creating the VM in VirtualBox.<br/>
+<img src="#STEP2_IMAGE_URL" height="80%" width="80%" alt="Create VM"/>
+<br/>
+</p>
+
+<h3>Step 3: Network Configuration for VM</h3>
+<p align="center">
+Configuration of VM network adapters.<br/>
+<img src="#STEP3_IMAGE_URL" height="80%" width="80%" alt="Network Configuration"/>
+<br/>
+</p>
+
+<h3>Step 4: Install Server 2019 on the VM</h3>
+<p align="center">
+Installation process for Windows Server 2019.<br/>
+<img src="#STEP4_IMAGE_URL" height="80%" width="80%" alt="Install Server 2019"/>
+<br/>
+</p>
 <!--
  ```diff
 - text in red
