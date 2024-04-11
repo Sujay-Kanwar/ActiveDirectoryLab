@@ -24,7 +24,7 @@ This project outlines the setup of an Active Directory Home Lab, detailing steps
 <h3>Step 1: Download Required Software</h3>
 <p align="center">
 VirtualBox, Windows 10 ISO, Server 2019 ISO.<br/>
-<img src="#STEP1_IMAGE_URL" height="80%" width="80%" alt="Download Software"/>
+<img src="https://imgur.com/a/MKmoeWl" height="80%" width="80%" alt="Download Software"/>
 <br/>
 </p>
 
