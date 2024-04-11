@@ -1,6 +1,6 @@
 <h1>Active Directory Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtu.be/
+ ### [YouTube Demonstration](https://youtu.be/)
 
 <h2>Description</h2>
 <p>
