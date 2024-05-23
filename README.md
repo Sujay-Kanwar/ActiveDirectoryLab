@@ -1,4 +1,4 @@
-<h1>Active Directory Home Lab</h1>
+<h1>Active Directory Home Lab Setup</h1>
 
  ### [YouTube Demonstration](https://youtu.be/)
 
@@ -36,18 +36,28 @@ Details on creating the VM in VirtualBox.<br/>
 </p>
 
 <h3>Step 3: Network Configuration for VM</h3>
-<p align="center">
-Configuration of VM network adapters.<br/>
-<img src="#STEP3_IMAGE_URL" height="80%" width="80%" alt="Network Configuration"/>
-<br/>
 </p>
 
 <h3>Step 4: Install Server 2019 on the VM</h3>
-<p align="center">
-Installation process for Windows Server 2019.<br/>
-<img src="#STEP4_IMAGE_URL" height="80%" width="80%" alt="Install Server 2019"/>
-<br/>
 </p>
+
+<h3>Step 5: Assign IP addressing for the internal network (the external network will automatically get IP addressing from the home network</h3>
+
+<h3>Step 6: Name the server, install the active directory, and create our domain</h3>
+
+<h3>Step 7: Configure domain and routing so the clients on the private network can reach the internet through the domain controller</h3>
+
+<h3>Step 8: Set up a DHCP on the domain controller so that when we create our Windows 10 machine, it can automatically get an IP address</h3>
+
+<h3>Step 9: The last thing on the domain controller, before creating our client virtual machine, is to run a PowerShell script that automatically creates a thousand users.</h3>
+
+<h3>Step 10: After creating the users, we are going to create another virtual machine and install Windows 10 on it, and that virtual machine will be connected to the private virtual box network.</h3>
+
+<h3>Step 11: We are going to name that machine client 1 and join it to the domain.</h3>
+
+<h3>Step 12: We’re going to log it into one of our domain accounts.</h3>
+
+<h2>Congratuations, Setup Complete!</h2>
 <!--
  ```diff
 - text in red
